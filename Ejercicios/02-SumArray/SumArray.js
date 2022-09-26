@@ -4,7 +4,7 @@ function SumArray(arr, n) {
   //   if (arr.some((el) => el != arr[i] && el + arr[i] === n)) return true;
   // }
   // return false;
-  arr.sort();
+  // arr.sort();
   let i = 0;
   let j = arr.length - 1;
   while (i != j) {
